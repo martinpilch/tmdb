@@ -1,0 +1,7 @@
+github "Alamofire/Alamofire" ~> 4.7
+github "Alamofire/AlamofireImage" ~> 3.3
+github "0xced/XCDYouTubeKit" ~> 2.5
+github "ashleymills/Reachability.swift"
+
+github "Quick/Quick"
+github "Quick/Nimble"

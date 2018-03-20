@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MovieTitleTableViewCell" customModule="super24i" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="200" id="2FG-tG-wR4" customClass="MovieTitleTableViewCell" customModule="super24i" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="415" height="210"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2FG-tG-wR4" id="OfA-6X-eod">
+                <rect key="frame" x="0.0" y="0.0" width="415" height="209.66666666666666"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="K4T-Je-dPl">
+                        <rect key="frame" x="0.0" y="0.0" width="207.66666666666666" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="DCC-5c-Qbg"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQ7-cN-oWK">
+                        <rect key="frame" x="217.66666666666663" y="10.000000000000002" width="177.33333333333337" height="20.666666666666671"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hl1-nf-k8j" customClass="MovieTitleTrailerButton" customModule="super24i" customModuleProvider="target">
+                        <rect key="frame" x="217.66666666666663" y="155.66666666666666" width="177.33333333333337" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="vgs-9y-PnJ"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <connections>
+                            <action selector="trailerButtonDidTap" destination="2FG-tG-wR4" eventType="touchUpInside" id="Ifg-P0-G57"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="fQ7-cN-oWK" secondAttribute="trailing" constant="20" id="2z7-KE-S5a"/>
+                    <constraint firstItem="hl1-nf-k8j" firstAttribute="leading" secondItem="OfA-6X-eod" secondAttribute="leading" priority="999" constant="20" id="AGa-rb-6Pn"/>
+                    <constraint firstAttribute="trailing" secondItem="K4T-Je-dPl" secondAttribute="trailing" priority="999" id="GYn-pG-zcJ"/>
+                    <constraint firstAttribute="bottom" secondItem="hl1-nf-k8j" secondAttribute="bottom" constant="10" id="Rqb-Pa-IeM"/>
+                    <constraint firstItem="hl1-nf-k8j" firstAttribute="top" secondItem="fQ7-cN-oWK" secondAttribute="bottom" priority="999" constant="10" id="WyU-IW-afK"/>
+                    <constraint firstItem="fQ7-cN-oWK" firstAttribute="leading" secondItem="OfA-6X-eod" secondAttribute="leading" priority="999" constant="20" id="Ycq-OH-lIc"/>
+                    <constraint firstItem="K4T-Je-dPl" firstAttribute="top" secondItem="OfA-6X-eod" secondAttribute="top" id="ZUE-6O-Ta4"/>
+                    <constraint firstItem="hl1-nf-k8j" firstAttribute="leading" secondItem="K4T-Je-dPl" secondAttribute="trailing" priority="999" constant="10" id="dFn-Xa-ECN"/>
+                    <constraint firstItem="fQ7-cN-oWK" firstAttribute="top" secondItem="K4T-Je-dPl" secondAttribute="bottom" priority="999" constant="10" id="dWg-QG-MX8"/>
+                    <constraint firstItem="fQ7-cN-oWK" firstAttribute="leading" secondItem="K4T-Je-dPl" secondAttribute="trailing" priority="999" constant="10" id="dct-NN-vGJ"/>
+                    <constraint firstAttribute="bottom" secondItem="K4T-Je-dPl" secondAttribute="bottom" priority="999" constant="10" id="h1Z-md-ASv"/>
+                    <constraint firstItem="K4T-Je-dPl" firstAttribute="width" secondItem="OfA-6X-eod" secondAttribute="width" multiplier="0.5" priority="999" id="mSG-6S-g3m"/>
+                    <constraint firstItem="K4T-Je-dPl" firstAttribute="leading" secondItem="OfA-6X-eod" secondAttribute="leading" id="mqZ-tM-K18"/>
+                    <constraint firstItem="fQ7-cN-oWK" firstAttribute="top" secondItem="OfA-6X-eod" secondAttribute="top" priority="999" constant="10" id="nUt-Gf-vg0"/>
+                    <constraint firstAttribute="trailing" secondItem="hl1-nf-k8j" secondAttribute="trailing" constant="20" id="zo6-W8-7kI"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="GYn-pG-zcJ"/>
+                        <exclude reference="h1Z-md-ASv"/>
+                        <exclude reference="mSG-6S-g3m"/>
+                        <exclude reference="Ycq-OH-lIc"/>
+                        <exclude reference="dWg-QG-MX8"/>
+                        <exclude reference="dct-NN-vGJ"/>
+                        <exclude reference="nUt-Gf-vg0"/>
+                        <exclude reference="AGa-rb-6Pn"/>
+                        <exclude reference="WyU-IW-afK"/>
+                        <exclude reference="dFn-Xa-ECN"/>
+                    </mask>
+                </variation>
+                <variation key="heightClass=compact">
+                    <mask key="constraints">
+                        <include reference="h1Z-md-ASv"/>
+                        <include reference="mSG-6S-g3m"/>
+                        <include reference="dct-NN-vGJ"/>
+                        <include reference="nUt-Gf-vg0"/>
+                        <include reference="dFn-Xa-ECN"/>
+                    </mask>
+                </variation>
+                <variation key="heightClass=regular">
+                    <mask key="constraints">
+                        <include reference="GYn-pG-zcJ"/>
+                        <include reference="Ycq-OH-lIc"/>
+                        <include reference="dWg-QG-MX8"/>
+                        <include reference="AGa-rb-6Pn"/>
+                        <include reference="WyU-IW-afK"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="posterImageView" destination="K4T-Je-dPl" id="s2O-U7-X9b"/>
+                <outlet property="titleLabel" destination="fQ7-cN-oWK" id="Zfn-ex-3jL"/>
+                <outlet property="trailerButton" destination="hl1-nf-k8j" id="mQO-l9-MGp"/>
+            </connections>
+            <point key="canvasLocation" x="54.5" y="138"/>
+        </tableViewCell>
+    </objects>
+</document>

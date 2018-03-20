@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopularViewController" customModule="super24i" customModuleProvider="target">
+            <connections>
+                <outlet property="errorLabel" destination="TS4-6f-EEX" id="SQZ-ix-Odl"/>
+                <outlet property="errorLabelHorizontalOffsetConstraint" destination="usR-pN-GOa" id="fKw-LO-mGq"/>
+                <outlet property="loadingView" destination="zcE-p4-ugE" id="HA3-CA-xgM"/>
+                <outlet property="tableView" destination="wKV-eg-gr9" id="fFn-f9-JtR"/>
+                <outlet property="view" destination="ZUJ-Fl-grr" id="rbZ-YF-rVt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ZUJ-Fl-grr">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wKV-eg-gr9">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="zcE-p4-ugE">
+                    <rect key="frame" x="177" y="334" width="20" height="20"/>
+                </activityIndicatorView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TS4-6f-EEX">
+                    <rect key="frame" x="20" y="333" width="335" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="TS4-6f-EEX" firstAttribute="leading" secondItem="fL7-LG-uXm" secondAttribute="leading" constant="20" id="1ve-PW-qpm"/>
+                <constraint firstItem="fL7-LG-uXm" firstAttribute="trailing" secondItem="TS4-6f-EEX" secondAttribute="trailing" constant="20" id="LzW-Fa-ATs"/>
+                <constraint firstItem="fL7-LG-uXm" firstAttribute="top" secondItem="wKV-eg-gr9" secondAttribute="top" id="Mlo-RJ-DMp"/>
+                <constraint firstItem="fL7-LG-uXm" firstAttribute="bottom" secondItem="wKV-eg-gr9" secondAttribute="bottom" id="TEC-AL-Rfz"/>
+                <constraint firstItem="fL7-LG-uXm" firstAttribute="trailing" secondItem="wKV-eg-gr9" secondAttribute="trailing" id="Tea-1r-asK"/>
+                <constraint firstItem="zcE-p4-ugE" firstAttribute="centerY" secondItem="fL7-LG-uXm" secondAttribute="centerY" id="ZJv-II-gvz"/>
+                <constraint firstItem="zcE-p4-ugE" firstAttribute="centerX" secondItem="fL7-LG-uXm" secondAttribute="centerX" id="d4V-nH-SHK"/>
+                <constraint firstItem="TS4-6f-EEX" firstAttribute="centerY" secondItem="fL7-LG-uXm" secondAttribute="centerY" id="usR-pN-GOa"/>
+                <constraint firstItem="wKV-eg-gr9" firstAttribute="leading" secondItem="fL7-LG-uXm" secondAttribute="leading" id="y17-Ds-sI9"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fL7-LG-uXm"/>
+        </view>
+    </objects>
+</document>

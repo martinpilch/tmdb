@@ -1,0 +1,6 @@
+github "0xced/XCDYouTubeKit" "2.5.6"
+github "Alamofire/Alamofire" "4.7.0"
+github "Alamofire/AlamofireImage" "3.3.0"
+github "Quick/Nimble" "v7.0.3"
+github "Quick/Quick" "v1.2.0"
+github "ashleymills/Reachability.swift" "v4.1.0"

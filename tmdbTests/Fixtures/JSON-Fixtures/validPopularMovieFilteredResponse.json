@@ -1,0 +1,21 @@
+{
+    "page": 1,
+    "total_results": 19706,
+    "total_pages": 986,
+    "results": [{
+                "vote_count": 278,
+                "id": 393345,
+                "video": false,
+                "vote_average": 5.1,
+                "title": "Cult of Chucky",
+                "popularity": 121.952653,
+                "poster_path": "\/r5JUiMYfatwYeDkxkLWYUx5GIjY.jpg",
+                "original_language": "en",
+                "original_title": "Cult of Chucky",
+                "genre_ids": [27, 53],
+                "backdrop_path": "\/lle3uwidvcWxBV6JDhb1NlVGxdE.jpg",
+                "adult": false,
+                "overview": "Confined to an asylum for the criminally insane for the past four years, Nica Pierce is erroneously convinced that she, not Chucky, murdered her entire family. But when her psychiatrist introduces a new therapeutic “tool” to facilitate his patients’ group sessions — an all-too-familiar “Good Guy” doll with an innocently smiling face — a string of grisly deaths begins to plague the asylum, and Nica starts to wonder if maybe she isn’t crazy after all. Meanwhile, Andy Barclay, Chucky’s now all-grown-up nemesis from the first three Child’s Plays, races to Nica’s aid. But to save her he’ll have to get past Tiffany, Chucky’s long-ago bride, who will do anything, no matter how deadly or depraved, to help her beloved evil devilish doll.",
+                "release_date": "2017-09-23"
+                }]
+}
