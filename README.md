@@ -1,3 +1,6 @@
+## To compile
+Simply run `carthage update --platform ios` in root of the project and you're ready to compile the app
+
 ## The idea
 Implement example iOS app to demonstrate how to write simple yet robust code that is testable and maintainable. 
 I decided to implement something related to movies thus I chose The Movie DB API. THe features are:
